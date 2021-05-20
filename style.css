@@ -1,0 +1,367 @@
+/* GLOBAL  */
+body{
+    background: linear-gradient(to right,#fbbd61,#ec7532);
+    font-family: 'Times New Roman', Times, serif;
+}
+.clear{
+    clear: both;
+}
+#pills-tab{
+   justify-content: center;
+   margin-top: 20px;
+   
+}
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+.nav-item{
+    margin:0 15px ;
+}
+.nav-item a{
+    color: #fff;
+    font-size: 18px;
+    font-weight: 300;
+}
+#pills-tabContent{
+    background: #212529;
+    height: 100%;
+}
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: #fff;
+    background-color: #212529;
+    transition: all .5s;
+}
+.nav-pills .nav-link:hover{
+    background-color: rgba(33, 37, 41, 0.233);
+}
+/* BÀI 1 */
+#pills-bai1{
+    background: #212529;
+}
+#pills-bai1 .grouptb{
+   position: relative;
+}
+#soDo1{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+#pills-bai1 h1{
+    text-align: center;
+    color: #fff;
+    padding-top: 15px;
+}
+#pills-bai1 .content{
+    width: 40%;
+    margin: 0 auto;
+    
+}
+#pills-bai1 .form-group{
+    background-color: #fff;
+    border-radius: 10px;
+    width: 70%;
+    margin: 40px auto 0;
+}
+#pills-bai1 .form-group h1{
+    background: linear-gradient(to right,#e9a2a2,#da3737);
+    border-top-left-radius: 10px ;
+    border-top-right-radius: 10px;
+    padding: 10px 0;
+}
+#pills-bai1 .form-group label{
+    color: #fff;
+}
+#pills-bai1 .form-group p{
+    color: #000;
+    font-size: 20px;
+    font-weight: 500;
+    padding-left: 10px;
+}
+
+#pills-bai1 .form-control{
+    width: 50%;
+    margin: 20px auto;
+}
+.content .button{
+    text-align: center;
+    margin: 20px 0;
+}
+#thongTinLuong{
+    text-align: center;
+}
+#thongTinLuong h3{
+    font-weight: bolder;
+}
+#thongTinLuong p{
+    font-size: 30px;
+    margin: 0;
+}
+.hienThiTien sup, .hienThiTien p{
+    display: inline-block;
+    font-size: 20px;
+}
+#soDoBaKhoi1{
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+/* BÀI 2 */
+#pills-bai2{
+    background: #212529;
+}
+#pills-bai2 h1{
+    text-align: center;
+    color: #fff;
+    padding-top: 15px;
+}
+#pills-bai2 p{
+    text-align: center;
+    color: #fff;
+    padding-top: 15px;
+    font-size: 20px;
+}
+#pills-bai2 .content{
+    width: 80%;
+    margin: 0 auto;
+}
+#pills-bai2 .form-control{
+    text-align: center;
+    margin: 0 10px;
+}
+#pills-bai2 .buttonCalculate{
+    text-align: center;
+}
+#pills-bai2 #showResult{
+    color: black;
+    background-color: white;
+    width: 50%;
+    margin: 20px auto;
+    border-radius: 10px;
+    height: 100px;
+}
+#pills-bai2 #showResult h2{
+    color: black;
+    background: linear-gradient(to right,#e9a2a2,#da3737);
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+    text-align: center;
+    font-weight: bold;
+}
+#pills-bai2 #showResult p{
+    color: black;
+    
+    font-weight: bold;
+}
+#soDoBaKhoi2{
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    text-align: center;
+}
+#pills-bai2 .grouptb2{
+    position: relative;
+ }
+ #soDo2{
+     position: absolute;
+     top: 20px;
+     right: 20px;
+ }
+ /* BÀI 3 */
+ #pills-bai3{
+    background: #212529;
+}
+ #pills-bai3 h1{
+     color: #fff;
+     text-align: center;
+     padding-top: 15px;
+ }
+ #pills-bai3 p{
+    color: #fff;
+    text-align: center;
+    padding-top: 15px;
+}
+ #pills-bai3 .content{
+     width: 80%;
+     margin: 0 auto;
+ }
+ #pills-bai3 .content i{
+     color: #fff;
+     font-size: 40px;
+     font-weight: bold;
+     margin: 0 20px;
+ }
+ #pills-bai3 .content img{
+    width: 4%;
+    margin: 0 5px;
+}
+#pills-bai3 .content .form-group{
+    width: 80%;
+     margin: 0 auto;
+     justify-content: center;
+}
+#pills-bai3 .content .form-control{
+    text-align: center;
+    margin: 15px 0;
+}
+.form-control:disabled, .form-control[readonly] {
+    background-color: #fff;
+    opacity: 1;
+}
+.buttonChange{
+    text-align: center;
+}
+#pills-bai3 p {
+    text-align: center;
+    color: #fff;
+    padding-top: 15px;
+    font-size: 20px;
+}
+#soDoBaKhoi3{
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    text-align: center;
+}
+#pills-bai3 .grouptb3{
+    position: relative;
+ }
+ #soDo3{
+     position: absolute;
+     top: 20px;
+     right: 20px;
+ }
+ /* BÀI 4 */
+ #pills-bai4{
+    background: #212529;
+}
+ #pills-bai4 h1{
+    color: #fff;
+    text-align: center;
+    padding-top: 15px;
+}
+#pills-bai4 .content .form-group{
+    width: 80%;
+     margin: 0 auto;
+     justify-content: center;
+}
+#pills-bai4 .content .form-control{
+    text-align: center;
+    margin: 15px 15px;
+}
+#showResult4{
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+    position: relative;
+}
+    
+
+#showResult4 p{
+    color: #fff;
+    margin-bottom: 0;
+}
+    
+#pRong{
+    position: absolute;
+    left: 15%;
+    top: 55%;
+}
+#pChuVi{
+    position: absolute;
+    left: 32%;
+    top: 40%;
+}
+#pDienTich{
+    position: absolute;
+    left: 32%;
+    top: 60%;
+}
+
+.buttonCal{
+    text-align: center;
+    margin-bottom: 20px;
+}
+#pills-bai4 p{
+    color: #fff;
+    text-align: center;
+    padding-top: 15px;
+    font-size: 20px;
+}
+#soDoBaKhoi4{
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    text-align: center;
+}
+#pills-bai4 .grouptb4{
+    position: relative;
+ }
+ #soDo4{
+     position: absolute;
+     top: 20px;
+     right: 20px;
+ }
+ /* BÀI 5 */
+ #pills-bai5{
+    background: #212529;
+}
+ #pills-bai5 h1{
+    color: #fff;
+    text-align: center;
+    padding-top: 15px;
+}
+#soDoBaKhoi5{
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    text-align: center;
+}
+#pills-bai5 .grouptb5{
+    position: relative;
+ }
+ #soDo5{
+     position: absolute;
+     top: 20px;
+     right: 20px;
+ }
+
+ #pills-ba5 .content{
+    width: 40%;
+    margin: 0 auto;
+    
+}
+#pills-bai5 .form-group{
+    background-color: #fff;
+    border-radius: 10px;
+    width: 70%;
+    margin: 40px auto 0;
+}
+#pills-bai5 .form-group h1{
+    background: linear-gradient(to right,#e9a2a2,#da3737);
+    border-top-left-radius: 10px ;
+    border-top-right-radius: 10px;
+    padding: 10px 0;
+}
+#pills-bai5 .form-group{
+    width: 30%;
+    margin: 15px auto;
+}
+#pills-bai5 .form-control{
+    width: 40%;
+    margin: 15px auto;
+
+    text-align: center;
+}
+#pills-bai5 h3{
+    margin-left: 15px;
+    padding-bottom: 10px;
+}
+#pills-bai5 .form-group p{
+    font-size: 18px;
+    margin: 0 15px;
+}
+#pills-bai5 button{
+    margin-bottom: 10px;
+}

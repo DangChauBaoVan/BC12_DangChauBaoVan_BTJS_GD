@@ -1,0 +1,227 @@
+</html>
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>BÀI TẬP JS</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- Font Awsome  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Main CSS  -->
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+        <li class="nav-item" role="presentation">
+            <a class="nav-link active" id="pills-bai1-tab" data-toggle="pill" href="#pills-bai1" role="tab"
+                aria-controls="pills-bai1" aria-selected="true">Bài 1</a>
+        </li>
+        <li class="nav-item" role="presentation">
+            <a class="nav-link" id="pills-bai2-tab" data-toggle="pill" href="#pills-bai2" role="tab"
+                aria-controls="pills-bai2" aria-selected="false">Bài 2</a>
+        </li>
+        <li class="nav-item" role="presentation">
+            <a class="nav-link" id="pills-bai3-tab" data-toggle="pill" href="#pills-bai3" role="tab"
+                aria-controls="pills-bai3" aria-selected="false">Bài 3</a>
+        </li>
+        <li class="nav-item" role="presentation">
+            <a class="nav-link" id="pills-bai4-tab" data-toggle="pill" href="#pills-bai4" role="tab"
+                aria-controls="pills-bai4" aria-selected="false">Bài 4</a>
+        </li>
+        <li class="nav-item" role="presentation">
+            <a class="nav-link" id="pills-bai5-tab" data-toggle="pill" href="#pills-bai5" role="tab"
+                aria-controls="pills-bai5" aria-selected="false">Bài 5</a>
+        </li>
+
+    </ul>
+
+    <div class="tab-content" id="pills-tabContent">
+        <!-- Bài 1 -->
+        <div class="tab-pane fade show active" id="pills-bai1" role="tabpanel" aria-labelledby="pills-bai1-tab">
+            <div class="grouptb">
+                <h1>Bài 1: Tính tiền lương nhân viên</h1>
+                <button type="button" class="btn btn-warning" id='soDo1'>Sơ Đồ 3 Khối</button>
+            </div>
+
+            <div id="soDoBaKhoi1">
+                <img src="./img/bai1.svg" alt="bai1">
+            </div>
+            <div class="content">
+                <div class="form-group ">
+                    <h1>Tính Tiền Lương</h1>
+                    <p>Lương 1 ngày: 100.000</p>
+                    <p>Thực lãnh = Lương 1 ngày x Số ngày làm</p>
+                    <input type="number" class="form-control" name="" id="soNgayLam" aria-describedby="helpId"
+                        placeholder="Nhập vào số ngày làm">
+                    <div class="button">
+                        <button id="btnTinhTien" class="btn btn-danger">
+                            Tính Tiền!
+                        </button>
+                    </div>
+                    <div id="thongTinLuong">
+                        <h3>LƯƠNG NHẬN ĐƯỢC: </h3>
+                        <div class="hienThiTien">
+                            <sup>$</sup>
+                            <p id="tienLuong">0</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+        <div class="clear"></div>
+        <!-- Bài 2 -->
+        <div class="tab-pane fade" id="pills-bai2" role="tabpanel" aria-labelledby="pills-bai2-tab">
+
+
+            <div class="grouptb2">
+                <h1>Bài 2: Tính giá trị trung bình 5 số</h1>
+                <p>Giá trị trung bình của 5 số sẽ bằng tổng 5 số chia cho 5</p>
+                <button type="button" class="btn btn-warning" id='soDo2'>Sơ Đồ 3 Khối</button>
+            </div>
+            <div id="soDoBaKhoi2">
+                <img src="./img/bai2.svg" alt="bai2">
+            </div>
+            <div class="content">
+                <form class="form-inline" autocomplete="off">
+                    <div class="form-group">
+                        <input type="number" id="soThuNhat" class="form-control" placeholder="Nhập số thứ 1" required>
+                        <input type="number" id="soThuHai" class="form-control" placeholder="Nhập số thứ 2" required>
+                        <input type="number" id="soThuBa" class="form-control" placeholder="Nhập số thứ 3" required>
+                        <input type="number" id="soThuTu" class="form-control" placeholder="Nhập số thứ 4">
+                        <input type="number" id="soThuNam" class="form-control" placeholder="Nhập số thứ 5">
+                    </div>
+
+                </form>
+                <div class="buttonCalculate">
+                    <button id="btnCalculate" class="btn btn-danger">
+                        Tính Nào!
+                    </button>
+                </div>
+                <div id="showResult">
+                    <h2>Kết Quả:</h2>
+                    <p id="pResult">0</p>
+                </div>
+            </div>
+        </div>
+        <div class="clear"></div>
+        <!-- Bài 3 -->
+        <div class="tab-pane fade" id="pills-bai3" role="tabpanel" aria-labelledby="pills-bai3-tab">
+
+            <div class="grouptb3">
+                <h1>Bài 3: Quy Đổi Tiền</h1>
+                <p>1 USD = 23.500 VNĐ</p>
+                <button type="button" class="btn btn-warning" id='soDo3'>Sơ Đồ 3 Khối</button>
+            </div>
+            <div id="soDoBaKhoi3">
+                <img src="./img/bai3.svg" alt="bai3">
+            </div>
+            <div class="content">
+                <form class="form-inline" autocomplete="off">
+                    <div class="form-group">
+                        <img src="./img/united-states.png" alt="">
+                        <input type="number" id="USD" class="form-control" placeholder="Nhập số USD cần quy đổi"
+                            required>
+                        <i class="fa fa-long-arrow-alt-right"></i>
+                        <img src="./img/vietnam.png" alt="">
+                        <input type="text" id="VND" class="form-control" placeholder="VNĐ" readonly>
+                    </div>
+                </form>
+                <div class="buttonChange">
+                    <button id="btnChange" class="btn btn-danger">
+                        Chuyển Đổi!
+                    </button>
+                </div>
+            </div>
+        </div>
+        <!-- Bài 4 -->
+        <div class="tab-pane fade" id="pills-bai4" role="tabpanel" aria-labelledby="pills-bai4-tab">
+            
+            <div class="grouptb4">
+                <h1>Bài 4: Tính Chu vi - Diện tích hình chữ nhật</h1>
+                <p>Chu vi = (Chiều dài + Chiều Rộng) x 2</p>
+                <p>Diện tích = Chiều dài x Chiều Rộng </p>
+                <button type="button" class="btn btn-warning" id='soDo4'>Sơ Đồ 3 Khối</button>
+            </div>
+            <div id="soDoBaKhoi4">
+                <img src="./img/bai4.svg" alt="bai4">
+            </div>
+            <div class="content">
+                <form class="form-inline" autocomplete="off">
+                    <div class="form-group">
+                        <input type="number" id="chieuDai" class="form-control" placeholder="Nhập chiều dài" >
+                        <input type="number" id="chieuRong" class="form-control" placeholder="Nhập chiều rộng">
+                    </div>
+                </form>
+                <div class="buttonCal">
+                    <button id="btnCal" class="btn btn-danger">
+                        Tính!
+                    </button>
+                </div>
+                <div id="showResult4">
+                    <p id="pDai">te</p>
+                    <p id="pRong">12</p>
+                    <p id="pChuVi">Chu vi: 12 x 12 = 144</p>
+                    <p id="pDienTich">Diện tích: 12+ 12  x2 =48 </p>
+                    <img src="./img/rectangle.svg" alt="rectangle">
+                </div>
+                <div class="clear"></div>
+            </div>
+        </div>
+        <!-- Bài 5 -->
+        <div class="tab-pane fade" id="pills-bai5" role="tabpanel" aria-labelledby="pills-bai5-tab">
+            <div class="grouptb5">
+                <h1>Bài 4: Tính tổng hai kí số</h1>
+                <button type="button" class="btn btn-warning" id='soDo5'>Sơ Đồ 3 Khối</button>
+            </div>
+            <div id="soDoBaKhoi5">
+                <img src="./img/bai5.svg" alt="bai5">
+            </div>
+            <div class="content">
+                <div class="form-group">
+                    <h1>Tính Tổng 2 Kí Số</h1>
+                    <p>Tổng 2 kí số = Chữ số hàng chục + Chữ số hàng đơn vị </p>
+                    <input type="number" class="form-control" name="" id="soHaiChuSo" aria-describedby="helpId"
+                        placeholder="Nhập vào số hai chữ số">
+                    <div class="button">
+                        <button id="btnTinhTong" class="btn btn-danger">
+                            Tính!
+                        </button>
+                    </div>
+                    <div id="ketQua">
+                        <p id="pChuc">Chữ số hàng chục: </p>
+                        <p id="pDonVi">Chữ số hàng đơn vị: </p>
+                        <h3 id="h3Tong">Tổng: </h3>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <script src="./index.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+
+</body>
+
+</html>
